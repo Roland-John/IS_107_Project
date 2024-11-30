@@ -49,7 +49,7 @@ CREATE TABLE public.factsales (
 
 -- Step 2: Load Data into Staging Table
 COPY public.staging (invoiceno, stockcode, description, quantity, invoicedate, unitprice, customerid, country)
-FROM 'C:\Users\Alicia\Desktop\IS_107_P_C\cleaned_online_retail.csv'
+FROM 'C:\Users\Alicia\Desktop\IS_107_P_C - Copy\cleaned_online_retail.csv'
 DELIMITER ',' 
 CSV HEADER;
 
